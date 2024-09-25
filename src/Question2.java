@@ -1,12 +1,25 @@
+import java.util.*;
 public class Question2 {
     public static void main(String[] args){
+        //Initialise scanner
+        Scanner sc = new Scanner(System.in);
+
         //Initialises variables
-        int a = 10;
-        int b = 5;
+        int a;
+        int b;
+        int choice = 0;
         int sum;
         int difference;
         int product;
         double quotient;
+
+        System.out.println("Enter first number: ");
+        a = sc.nextInt();
+
+        System.out.println("Enter second number: ");
+        b = sc.nextInt();
+
+        System.out.println("");
 
         //Does calculations
         sum = a + b;
